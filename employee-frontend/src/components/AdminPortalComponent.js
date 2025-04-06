@@ -1,8 +1,12 @@
 import React from 'react'
+import NavComponent from './navigation/NavComponent'
 
 function AdminPortalComponent() {
   return (
-    <div>AdminPortalComponent</div>
+    <>
+        <NavComponent></NavComponent>
+       <h1>Admin Portal</h1>
+    </>
   )
 }
 

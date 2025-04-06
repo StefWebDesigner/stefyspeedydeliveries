@@ -1,8 +1,14 @@
 import React from 'react'
+import NavComponent from './navigation/NavComponent'
 
 function HomeComponent() {
   return (
-    <div>HomeComponent</div>
+    <>
+        <NavComponent></NavComponent>
+        <h1>Steffy Speedy Deliveries</h1>
+    
+    
+    </>
   )
 }
 
